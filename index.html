@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gabriel Souza Freitas - Currículo</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Gabriel S.F</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Gabriel Souza Freitas</h1>
-    <p>Assistente Administrativo | Futuro Cientista da Computação</p>
-  </header>
 
-  <main>
-    <section class="sobre">
-      <h2>Sobre Mim</h2>
-      <p>Sou dedicado, comunicativo, com boa escrita, iniciativa e proatividade. Busco uma oportunidade para evoluir profissionalmente e contribuir com os objetivos da empresa.</p>
-    </section>
+    <div class="star-background"></div>
+    <div class="asteroid-field"></div>
 
-    <section class="experiencia">
-      <h2>Experiência Profissional</h2>
-      <ul>
-        <li><strong>Assistente Administrativo</strong> – [Nome da Empresa] – [Ano de início] até [Ano]</li>
-        <!-- Você pode adicionar mais experiências aqui -->
-      </ul>
-    </section>
+    <header>
+        <div class="header-content">
+            <div class="profile-picture">
+                <img src="man.jpg" alt="Foto de Perfil de Gabriel Souza Freitas">
+            </div>
+            <div class="header-text">
+                <h1>Gabriel Souza Freitas</h1>
+                <p> </p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/gabriel-freitas-07a165301/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/GaelPapel" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://gaelpapel.github.io/" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </header>
 
-    <section class="formacao">
-      <h2>Formação Acadêmica</h2>
-      <ul>
-        <li><strong>Ciência da Computação</strong> – [Nome da Faculdade] – Início: [Ano]</li>
-      </ul>
-    </section>
-
-    <section class="contato">
-      <h2>Contato</h2>
-      <p>Email: <a href="mailto:gabriel@email.com">gabriel@email.com</a></p>
-      <p>Telefone: (XX) XXXXX-XXXX</p>
-    </section>
-
-    <div class="botoes">
-      <button onclick="baixarPDF()">Baixar Currículo (PDF)</button>
+    <main>
+        <section id="about" class="fade-in">
+            <h2>Sobre Mim</h2>
+            <p>Me chamo Gabriel, tenho 19 anos, sou uma pessoa dedicada e comunicativa. Atualmente cursando Ciência da Computação, busco uma oportunidade desafiadora para aplicar minhas habilidades, crescer profissionalmente e contribuir significativamente para os objetivos da empresa.</p>
+        </section>
+<section id="courses" class="fade-in">
+    <h2>Cursos</h2>
+    <ul>
+        <li><i class="fas fa-graduation-cap"></i> AWS Academy Graduate – Cloud Foundations</li>
+        <li><i class="fas fa-shield-alt"></i> Cybersecurity Essentials – Cisco</li>
+    </ul>
+    
+    <div class="certificate-link"> <a href="https://www.credly.com/users/gabriel-souza-freitas/badges#credly" target="_blank" title="Ver certificados na Credly">
+            <i class="fas fa-certificate"></i> Ver Certificados
+        </a>
     </div>
-  </main>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Gabriel Souza Freitas</p>
-  </footer>
+        <section id="skills" class="fade-in">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Java, Python, C#, React</li>
+                        <li><i class="fas fa-database"></i> Bancos de Dados (SQL)</li>
+                        <li><i class="fas fa-file-excel"></i> Pacote Office </li>
+                        <li><i class="fas fa-chart-bar"></i> Análise de Dados</li>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-comments"></i> Comunicação</li>
+                        <li><i class="fas fa-lightbulb"></i> Proatividade</li>
+                        <li><i class="fas fa-users"></i> Trabalho em Equipe</li>
+                        <li><i class="fas fa-brain"></i> Aprendizado Rapido</li>
+                        <li><i class="fas fa-clipboard-check"></i> Gestão de Tempo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <section id="projects" class="fade-in">
+            <h2>Projetos</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Projeto Alfabetização</h3>
+                    <p>Este é um projeto com objetivo de alfabetizar adultos com metodos do Paulo Freire.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/GaelPapel/projeto-alfabetizacao" target="_blank"><i class="fab fa-github"></i></a>
+                       
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Calculadora</h3>
+                    <p>Esse é um simples codigo em python que faz cauculos matemáticos</p>
+                    <div class="project-links">
+                        <a href="https://github.com/GaelPapel/calculadora-py/blob/master/main.py" target="_blank"><i class="fab fa-github"></i></a>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in">
+            <h2>Contato</h2>
+            <p><i class="fas fa-envelope"></i> Email: gabrielsouzafreitas917@gmail.com</p>
+            <p><i class="fas fa-phone"></i> Telefone: (31) 983902802</p>
+            <p><i class="fas fa-map-marker-alt"></i> Localização: Belo Horizonte, MG</p>
+            <div class="buttons">
+                <a href="Curriculo_Gabriel.pdf" download="Curriculo_Gabriel_Freitas.pdf" class="button-link"></a>
+                <button id="downloadPdf"><i class="fas fa-file-pdf"></i> Baixar Currículo (PDF)</button>
+              </a>  
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gabriel Souza Freitas.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
