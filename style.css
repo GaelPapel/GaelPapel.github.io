@@ -1,13 +1,13 @@
 :root {
     /* NOVA PALETA DE CORES ESPACIAIS */
-    --bg-color: #0d0d1a;            /* Fundo principal azul muito escuro */
-    --primary-color: #2368b8;       /* Azul Estelar - Para links, bordas, elementos importantes */
-    --secondary-color: #c47e3e;     /* Cor de Destaque Secundária (Laranja/Marrom) - Para destaques e interatividade (hover, bullet points) */
-    --text-color: #ffffff;          /* Branco puro para o texto principal */
-    --highlight-color: #94bada;     /* Branco Puro (usado para o nome, títulos de seção e ícones de skills) */
-    --card-color: #1a1a30;          /* Azul escuro para os cards, um pouco mais claro que o fundo */
+    --bg-color: #0d0d1a;            /* Fundo principal  */
+    --primary-color: #2368b8;       /* Para links, bordas, elementos importantes */
+    --secondary-color: #c47e3e;     /* Cor de Destaque Secundária */
+    --text-color: #ffffff;          /* texto principal */
+    --highlight-color: #94bada;     /* usado para o nome, títulos de seção e ícones de skills */
+    --card-color: #1a1a30;          /* para os cards, um pouco mais claro que o fundo */
 
-    /* Cores RGB para transparência e sombras (corrigidas para corresponder aos hexadecimais) */
+   
     --primary-rgb: 35, 104, 184;    /* RGB de #2368b8 */
     --secondary-rgb: 196, 126, 62;  /* RGB de #c47e3e */
     --highlight-rgb: 255, 255, 255; /* RGB de #ffffff */
@@ -15,12 +15,12 @@
     /* RGBs para fundos com transparência */
     --bg-color-rgb: 13, 13, 26;
     --card-color-rgb: 26, 26, 48;
-    --card-color-hover: #262640;    /* Ajustado para um tom mais escuro que harmonize com o --card-color */
+    --card-color-hover: #262640;  
 }
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif; /* Mantenho Montserrat como estava para a fonte */
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
@@ -31,12 +31,12 @@ body {
 a {
     color: var(--primary-color);
     text-decoration: none;
-    transition: color 0.3s ease; /* Removido text-shadow transition */
+    transition: color 0.3s ease; 
 }
 
 a:hover {
     color: var(--secondary-color);
-    /* Removido text-shadow aqui */
+
 }
 
 ul {
@@ -180,11 +180,6 @@ header::before {
     /* REMOVIDO: text-shadow e transition */
 }
 
-/* REMOVIDO: Animação ao passar o mouse sobre o nome GABRIEL (pulseName) */
-.header-text h1:hover {
-    /* Não há mais text-shadow ou animação de pulso */
-}
-
 .header-text p {
     font-size: 1.2rem;
     color: var(--secondary-color);
@@ -214,7 +209,7 @@ header::before {
 .social-links a:hover {
     color: var(--secondary-color);
     transform: translateY(-5px) scale(1.1);
-    /* REMOVIDO: text-shadow aqui */
+
 }
 
 /* --- Conteúdo Principal (Main) --- */
@@ -249,7 +244,7 @@ h2 {
     display: inline-block;
     margin-bottom: 20px;
     padding-bottom: 8px;
-    /* REMOVIDO: text-shadow aqui */
+
 }
 
 ul {
@@ -435,7 +430,7 @@ li::before {
 .project-links a:hover {
     color: var(--secondary-color);
     transform: scale(1.1);
-    /* REMOVIDO: text-shadow aqui */
+
 }
 
 /* --- Contato --- */
@@ -452,7 +447,7 @@ li::before {
 
 .contact a:hover {
     color: var(--secondary-color);
-    /* REMOVIDO: text-shadow aqui */
+
 }
 
 /* --- Botões --- */

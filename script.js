@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         star.classList.add('star');
         starBackgroundContainer.appendChild(star);
 
-        const size = Math.random() * 2 + 1; // Tamanho entre 1px e 3px
+        const size = Math.random() * 2 + 1; 
         star.style.width = `${size}px`;
         star.style.height = `${size}px`;
 
